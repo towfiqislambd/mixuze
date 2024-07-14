@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav ul li a{
+    color: #333 !important
+}
+nav ul li a:hover{
+    color: #469cae !important;
+    transition: all .5s
+}
+nav{
+    box-shadow: 2px 2px 5px #469cae;
+    background:rgba(245, 246, 250,0.9)
+}
+header{
+    background: url(../image/a7.jpg) no-repeat center center / cover;
+    margin-top: 80px;
+    height:600px
+}
+.overlay{
+    background:#469caeb8;
+    height:600px
+}
+#fill button{
+    background: #469cae !important;
+    color: #fff
+}
+#about .card{
+    border: thin solid  #469cae
+}
+#about .card i,h3{
+    color: #469cae
+}
+#about .card.second{
+    background: #469cae !important;
+}
+#book .row .col h2,
+#meet .row .col h2{
+    color: #469cae !important
+}
+#meet .card .card-body .card-img{
+    margin-top: -60px
+}
+#meet .card i{
+    color: #469cae 
+}
+#meet .card:hover i{
+    color: #fff !important 
+}
+#meet .card:hover{
+    background:#469cae !important;
+    color: #fff;
+    transition: all .4s
+}
+#form form button{
+    background:#469cae !important;
+    color: #fff
+}
+footer{
+    background:#469cae !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:792px){
+    #meet .card .card-body .card-img{
+    margin-top: 0px
+}
+    #form .col-lg-3{
+        display: none !important
+    }
+    
+}
+@media screen and (max-width:768px){
+    #meet .card .card-body .card-img{
+    margin-top: 0px
+}
+}
